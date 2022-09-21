@@ -2,9 +2,9 @@ window.addEventListener('DOMContentLoaded', function () { //запускаем �
     'use strict'; // используем строгий режим
 
 // Задаем переменные
-    let tabHeader = document.querySelector('.info-header'),
-        tabs = document.querySelectorAll('.info-header-tab'),
-        tabContent = document.querySelectorAll('.info-tabcontent');
+    let tabHeader = document.querySelector('.info-header'), // родитель
+        tabs = document.querySelectorAll('.info-header-tab'), // табы
+        tabContent = document.querySelectorAll('.info-tabcontent'); // контент табов
 
 
 //Пишем функцию скрывающую контент вкладок
@@ -44,10 +44,6 @@ window.addEventListener('DOMContentLoaded', function () { //запускаем �
            }
 
         }
-
-
-
-
 
     });
 
